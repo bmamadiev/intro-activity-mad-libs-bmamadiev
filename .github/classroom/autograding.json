@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Run Mad Libs",
+      "setup": "",
+      "run": "java src/Main.java",
+      "input": "ONE\r\nTWO\r\nTHREE\r\nFOUR\r\nFIVE",
+      "output": "(.*[ONE|TWO|THREE|FOUR|FIVE].*)+",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
