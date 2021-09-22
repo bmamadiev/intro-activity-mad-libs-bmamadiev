@@ -8,7 +8,7 @@ public class Main {
         /* Mad Libs            */
         /***********************/
 
-        System.out.println("Welcome to Mad Libs!" + "\n");
+        System.out.println("Welcome to Mad Libs!");
 
         // Write your code here
 
