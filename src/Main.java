@@ -1,3 +1,4 @@
+import javax.sound.midi.Soundbank;
 import java.util.Scanner;
 
 public class Main {
@@ -20,32 +21,28 @@ public class Main {
         String userInputZero = myScanner.nextLine();
         System.out.println("Great. Now send me your answer to fill the empty space in the following sentence.");
         System.out.println("A country is \"double-landlocked\" when it is surrounded only by _______(1) countries.");
-        // The right answer: landlocked. We assume the user sends correct answer everytime because I do not know how to use conditionals yet. :)
+        // The right answer: landlocked. We assume the user sends correct answer everytime. Conditionals are not within the scope of this assignment.
 
-        myScanner = new Scanner(System.in);
         String userInputOne = myScanner.nextLine();
-        System.out.println("Good job! Now go to the next sentence." + "\n" + "There are two of them in the world: one is in ______(2); the other one in Europe.");
+        System.out.println("Good job! Now go to the next sentence.");
+        System.out.println("There are two of them in the world: one is in ______(2); the other one in Europe.");
         // The right answer: Asia
 
-        myScanner = new Scanner(System.in);
         String userInputTwo = myScanner.nextLine();
         System.out.println("Super! Now try this one.");
         System.out.println("The only double-landlocked country in Asia is ________(3).");
         // The right answer: Uzbekistan
 
-        myScanner = new Scanner(System.in);
         String userInputThree = myScanner.nextLine();
-        System.out.println("Wow! You are amazing! Now go to the 4th sentence.\n" +
-                "Do you know the other one in ________(4)? ");
+        System.out.println("Wow! You are amazing! Now go to the 4th sentence.");
+        System.out.println("Do you know the other one in ________(4)?");
         // The right answer: Europe
 
-        myScanner = new Scanner(System.in);
         String userInputFour = myScanner.nextLine();
-        System.out.println("You are something! I am so impressed! Can you find the last one?\n" +
-                "It is __________(5).");
+        System.out.println("You are something! I am so impressed! Can you find the last one?");
+        System.out.println("It is __________(5).");
         // The right answer: Liechtenstein
 
-        myScanner = new Scanner(System.in);
         String userInputFive = myScanner.nextLine();
         System.out.println("\n" + "Congratulations!!!! You have been accepted to Kenzie Academy! Have never seen someone so good at geography." + "\n");
 
